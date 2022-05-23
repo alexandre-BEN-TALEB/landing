@@ -1,0 +1,33 @@
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+.card{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	box-shadow: 3px 3px darkgrey;
+	align-items: center;
+	border: 2px solid black;
+	margin-bottom: 20px;
+	flex-basis: 40px;
+	flex-grow: 1;
+}
+
+.card img{
+	border-radius: 10px;
+	width: 200px;
+}
+
+.card h3{
+	flex-grow: 1;
+	padding: 10px;
+	font-size: 20px;
+}
